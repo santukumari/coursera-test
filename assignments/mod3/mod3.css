@@ -1,0 +1,83 @@
+body {
+	font-size: 16px;
+	border: 3px black;
+	padding-top: 70px;
+	font-family: 'Oxygen', sans-serif;
+}
+/* HEADER */
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	
+	border-color: black;
+	height: 30px;
+}
+.navbar-brand {
+	padding-top: 25px;
+
+}
+.navbar-brand h1 {
+	color: black;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: -20px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    /* background-color: #888; */
+    background-color: black;
+    border: 1px black;
+
+}
+/* END Header */
+#Chicken-tile, #Beef-tile, #Sushi-tile {
+	width: 100%;
+	position: ;
+	text-align: center;
+	background-color: grey;
+	border: 1px black;
+	margin: 10px 20px 10px;
+	font-size: 14px;
+	margin-right: -20px;
+	
+
+}
+#collapsable-nav hr {
+	color: black;
+}
+.row span {
+	font-weight: bold;
+	font-size: 25px;
+}
+/*******  desktop devices *******/
+@media (min-width: 992px) and ( max-width: 1199px) {
+	.col-md-12 {
+		width: 90%;
+		margin: 10px 20px 10px;
+		margin-right: 0;
+	}
+
+}
+
+/****** tablet devices ******/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-12 {
+		width: 90%;
+		margin: 10px 20px 10px;
+	}
+
+}
+@media (max-width: 767px) {
+	.col-md-12 {
+		width: 90%;
+		margin: 10px 20px 10px;
+	}
+	#collapsable-nav a {/* collapsable nav menu glyph */
+	position: relative;
+	height: 30px;
+	text-align: center;
+	border: 2px black;
+}
+.nav > li > a {
+	border: 1px black;
+}
+}
